@@ -1,0 +1,152 @@
+<html>
+<link rel="stylesheet" href="../css/main.css" type="text/css">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<title>Gus's Blog</title>
+
+ 
+
+<body>
+
+    <header>
+        <div class="header">
+
+            <h1><a href="../index.html">My Blog.</a></h1>
+
+            <nav>
+                <ul class="nav-bar">
+                    <h3><a href="../index.html">Home</a></h3>
+                    <h3><a href="./tech-blog.html">Tech Blog</a></h3>
+                    <h3><a href="./learning-plan.html">Learning Plan</a></h3>
+                    <h3><a href="./identity-values.html">Values</a></h3>
+                </ul>
+            </nav>
+
+
+        </div>
+
+    </header>
+
+
+
+    <div class="nav">
+
+    </div>
+
+
+    <div class="tech-blog">
+        <div id="tech">
+            <div >
+                <h2 class="title">Tech Blog</h2>
+            </div>
+            <div>
+                <h3 id="topic">What does it mean to display inline vs inline blocks? </h3>
+            </div>
+        </div>
+
+        <Section class="main-tech">
+
+
+            <container id="content">
+
+
+                <div>
+                    <h2> Inline vs. Inline Block elements</h2>
+                </div>
+                <div>
+                    The purpose of this post is to explain the difference between Inline Elements and Inline Block elements. 
+                        <br>
+                    <br>First, lets look at what an inline element is. 
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Inline Elements</h3>
+                    An inline element is one that does not demand its own width of space, rather will sit next to other inline elements, OR will sit within a block level element.  
+                    <br>
+                    <br>For example, take a look at this syntax:  
+                    <br>
+                    <br><div id="example1">The highlighted text in this paragraph is an inline element “span” <span id="highlight"> AND </span> appears within the block element which is the div. A reason for using inline elements is that I can use CSS to isolate and style only the inline element in this block (highlighted).</div>
+                    <br>
+                    <br> An inline element, as you can see, does not start on a new line, and is embedded within the wrapping element. 
+                    <br>
+                    <br> Important to note: inline elements DO NOT have <span id="bold">width</span> or <span id="bold">height</span> properties as it only takes up as much space as necessary. You can however use padding and margins on this inline element, however expect the existing content to be affected as you add these. 
+
+                    <br>
+                    <br>
+                    <br><h3>Inline Block Elements</h3>
+                    
+                    <br>One of the main differences between an inline-block and inline element is that display: inline-block allows you to determine the width and height properties on the element, which for example a span above would not let you perform these properties. 
+
+                    <br>Let’s compare this to a block element such as a div, the inline-block does not add a line-break after the element, so the element can sit next to other elements.
+                    <br>
+                    <br>Instances where you may choose to do this would be for a navigation bar for example. 
+                    <br>
+                    <br>You may now be thinking, well what about display: flex?
+                    <br>
+                    <br>The only main difference between inline-flex and inline block is that an inline block creates a specific block for each element under its section while maintaining the structure of each element.
+
+
+
+                </div>
+
+
+            </container>
+
+
+
+
+
+
+        </Section>
+
+        <div class="line-bottom">
+
+        </div>
+
+
+
+        <div class="nav-bottom">
+
+            <div><a id="tech" href="./tech-blog.html"">
+                    <img src="../images/matrix.jpeg"
+                        alt="matrix">
+                    <h3>Tech Blog</h5>
+                </a>
+            </div>
+
+            <div><a id="learn" href="./learning-plan.html">
+                    <img src="../images/learning.jpeg"
+                        alt="learning">
+                    <h3>Learning Plan</h5>
+                </a>
+            </div>
+
+            <div><a id="values" href="./identity-values.html">
+                    <img src="../images/Lake-Moraine.jpeg"
+                        alt="lake Lake-Moraine">
+                    <h3>Values</h5>
+                </a>
+            </div>
+
+        </div>
+
+        <footer>
+
+
+            <div>
+                <span id="rights"> All Rights Reserved 2021</span>
+                <span>|</span>
+                <span id="privacy">Gus Hawke</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+
+</html> 
