@@ -302,6 +302,7 @@ span#highlight {
 span#bold {
     font-weight: bold;
     color: rgb(0, 128, 117);
+    text-decoration: underline;
     
 }
 
